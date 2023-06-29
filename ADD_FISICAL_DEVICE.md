@@ -1,3 +1,5 @@
+## Guia oficial <https://reactnative.dev/docs/running-on-device>
+
 ## ANDROID
 ---
 
@@ -39,4 +41,11 @@ npx react-native run-android
 ---
 <b>Configuración en el dispositivo</b>
 
-* 
+* Activar developer mode ==> settings > privacy&Security > developer Mode(On)
+* Untrusted Enterprise Developer on iPhone ==> Settings > General > Device Management(Developer App)
+* Conectar el iPhone directo a la pc
+* open .xcworkspace, within it using Xcode. ubicado en la carpeta ios > .xcworkspace
+* xCode > preference > ir a tabs de accounts y agregar cuenta de AppleID
+* seleccionar tab "SignIn and capabilities" 
+* En las barra superior desplegar los dispositivos y seleccionar el iPhone
+* Darle al icono de "Play"
