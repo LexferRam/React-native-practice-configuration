@@ -44,6 +44,10 @@ npx react-native run-android
 * Activar developer mode ==> settings > privacy&Security > developer Mode(On)
 * Untrusted Enterprise Developer on iPhone ==> Settings > General > Device Management(Developer App)
 * Conectar el iPhone directo a la pc
+* ejecutar, para asegurar tener la ultima version: 
+```cmd
+npx react-native run-ios
+```
 * open .xcworkspace, within it using Xcode. ubicado en la carpeta ios > .xcworkspace
 * xCode > preference > ir a tabs de accounts y agregar cuenta de AppleID
 * seleccionar tab "SignIn and capabilities" 
