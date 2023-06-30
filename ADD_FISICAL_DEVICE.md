@@ -36,6 +36,15 @@ npx react-native run-android
  npx react-native run-android --deviceId deviceId
 ```
 
+## For clean android project run following command in macOS
+
+```cmd
+cd android && ./gradlew clean
+```
+to re-run
+```cmd
+cd .. && react-native run-android
+```
 
 ## IPHONE
 ---
@@ -53,3 +62,9 @@ npx react-native run-ios
 * seleccionar tab "SignIn and capabilities" 
 * En las barra superior desplegar los dispositivos y seleccionar el iPhone
 * Darle al icono de "Play"
+
+## If you are having trouble with iOS, try to reinstall the dependencies by running:
+
+* **cd ios** to navigate to the ios folder.
+* **bundle install** to install Bundler.
+* **bundle exec pod install** to install the iOS dependencies managed by CocoaPods.
